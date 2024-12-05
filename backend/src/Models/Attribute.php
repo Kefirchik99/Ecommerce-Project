@@ -10,3 +10,4 @@ class Attribute extends Model
         $stmt->execute(['name' => $data['name']]);
     }
 }
+

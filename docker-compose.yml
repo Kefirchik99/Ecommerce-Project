@@ -1,3 +1,4 @@
+
 php:
   build:
     context: .
@@ -19,7 +20,7 @@ mysql:
     MYSQL_ROOT_PASSWORD: root_password
     MYSQL_DATABASE: scandiweb
     MYSQL_USER: user
-    MYSQL_PASSWORD: user_password
+    MYSQL_PASSWORD: user_password 
   volumes:
     - mysql-data:/var/lib/mysql
 
